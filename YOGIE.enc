@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+    printf("\tBIODATA PRIBADI SAYA\n\n");
+    printf("NAMA : YOGIE HIDAYAT\n");
+    printf("\NPM : 1914370926\n");
+    printf("\KELAS : REGULER 1D\n");
+    printf("\FAKULTAS : SAINS & TEKNOLOGI\n");
+    printf("\PRODI : SISKOM\n");
+
+
+    int x= 50;
+    int y= 30;
+    int z;
+    z=x-y;
+    printf("baris 1 -nilai z adalah %d\n",z);
+    z=x+y;
+    printf("baris 2 -nilai z adalah %d\n",z);
+    z=x%y;
+    printf("baris 3 -nilai z adalah %d\n",z);
+    z=x*y;
+    printf("baris 4 -nilai z adalah %d\n",z);
+    z=x/y;
+    printf("baris 5 -nilai z adalah %d\n",z);
+    z=x++;
+    printf("baris 6 -nilai z adalah %d\n",z);
+    z=x--;
+    printf("baris 7 -nilai z adalah %d\n",z);
+    return 0;
+}
